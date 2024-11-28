@@ -1,0 +1,7 @@
+{
+  "name": "Examen_AppMov",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
