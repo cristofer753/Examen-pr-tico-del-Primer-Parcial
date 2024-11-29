@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Validación de Contraseña
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="logo-container">
+    <img src="https://w7.pngwing.com/pngs/708/705/png-transparent-password-manager-password-safe-android-blue-electric-blue-advanced-encryption-standard-thumbnail.png" alt="Ionic Logo" class="logo" />
+  </div>
+
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input [(ngModel)]="password" type="password" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Confirmar Contraseña</ion-label>
+    <ion-input [(ngModel)]="confirmPassword" type="password" required></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="validarContrasenas()">Validar Contraseñas</ion-button>
+</ion-content>
+
+
